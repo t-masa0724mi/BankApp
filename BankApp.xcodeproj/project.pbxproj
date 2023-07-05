@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E2C7BF162A5553700051C5CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C7BF152A5553700051C5CB /* SceneDelegate.swift */; };
+		E2C7BF182A5553BD0051C5CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C7BF172A5553BD0051C5CB /* AppDelegate.swift */; };
+		E2C7BF242A5554D70051C5CB /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C7BF232A5554D70051C5CB /* View+Extensions.swift */; };
+		E2C7BF262A5554F50051C5CB /* URL+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C7BF252A5554F50051C5CB /* URL+Extensions.swift */; };
+		E2C7BF282A5555130051C5CB /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C7BF272A5555130051C5CB /* Double+Extensions.swift */; };
+		E2C7BF2A2A5555450051C5CB /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C7BF292A5555450051C5CB /* Account.swift */; };
+		E2C7BF2C2A5555700051C5CB /* AccountSummaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C7BF2B2A5555700051C5CB /* AccountSummaryViewModel.swift */; };
+		E2C7BF2E2A5555F00051C5CB /* AccountService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C7BF2D2A5555F00051C5CB /* AccountService.swift */; };
 		E2E394F82A55476C006D5101 /* BankAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E394F72A55476C006D5101 /* BankAppApp.swift */; };
 		E2E394FA2A55476C006D5101 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E394F92A55476C006D5101 /* ContentView.swift */; };
 		E2E394FC2A554770006D5101 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2E394FB2A554770006D5101 /* Assets.xcassets */; };
@@ -14,6 +22,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E2C7BF152A5553700051C5CB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E2C7BF172A5553BD0051C5CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E2C7BF232A5554D70051C5CB /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		E2C7BF252A5554F50051C5CB /* URL+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extensions.swift"; sourceTree = "<group>"; };
+		E2C7BF272A5555130051C5CB /* Double+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
+		E2C7BF292A5555450051C5CB /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		E2C7BF2B2A5555700051C5CB /* AccountSummaryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryViewModel.swift; sourceTree = "<group>"; };
+		E2C7BF2D2A5555F00051C5CB /* AccountService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountService.swift; sourceTree = "<group>"; };
 		E2E394F42A55476C006D5101 /* BankApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2E394F72A55476C006D5101 /* BankAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAppApp.swift; sourceTree = "<group>"; };
 		E2E394F92A55476C006D5101 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +48,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E2C7BF1A2A55540A0051C5CB /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E2C7BF272A5555130051C5CB /* Double+Extensions.swift */,
+				E2C7BF252A5554F50051C5CB /* URL+Extensions.swift */,
+				E2C7BF232A5554D70051C5CB /* View+Extensions.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		E2C7BF1C2A5554350051C5CB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E2C7BF292A5555450051C5CB /* Account.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E2C7BF1D2A55543C0051C5CB /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		E2C7BF1F2A5554550051C5CB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E2C7BF212A55546E0051C5CB /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				E2C7BF2D2A5555F00051C5CB /* AccountService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		E2C7BF222A55547B0051C5CB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E2C7BF2B2A5555700051C5CB /* AccountSummaryViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		E2E394EB2A55476C006D5101 = {
 			isa = PBXGroup;
 			children = (
@@ -51,7 +115,15 @@
 		E2E394F62A55476C006D5101 /* BankApp */ = {
 			isa = PBXGroup;
 			children = (
+				E2C7BF222A55547B0051C5CB /* ViewModel */,
+				E2C7BF212A55546E0051C5CB /* Service */,
+				E2C7BF1F2A5554550051C5CB /* View */,
+				E2C7BF1D2A55543C0051C5CB /* Screen */,
+				E2C7BF1C2A5554350051C5CB /* Model */,
+				E2C7BF1A2A55540A0051C5CB /* Extension */,
 				E2E394F72A55476C006D5101 /* BankAppApp.swift */,
+				E2C7BF172A5553BD0051C5CB /* AppDelegate.swift */,
+				E2C7BF152A5553700051C5CB /* SceneDelegate.swift */,
 				E2E394F92A55476C006D5101 /* ContentView.swift */,
 				E2E394FB2A554770006D5101 /* Assets.xcassets */,
 				E2E394FD2A554770006D5101 /* Preview Content */,
@@ -137,8 +209,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2C7BF182A5553BD0051C5CB /* AppDelegate.swift in Sources */,
+				E2C7BF262A5554F50051C5CB /* URL+Extensions.swift in Sources */,
+				E2C7BF282A5555130051C5CB /* Double+Extensions.swift in Sources */,
+				E2C7BF2E2A5555F00051C5CB /* AccountService.swift in Sources */,
 				E2E394FA2A55476C006D5101 /* ContentView.swift in Sources */,
 				E2E394F82A55476C006D5101 /* BankAppApp.swift in Sources */,
+				E2C7BF2C2A5555700051C5CB /* AccountSummaryViewModel.swift in Sources */,
+				E2C7BF2A2A5555450051C5CB /* Account.swift in Sources */,
+				E2C7BF242A5554D70051C5CB /* View+Extensions.swift in Sources */,
+				E2C7BF162A5553700051C5CB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +355,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +385,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
