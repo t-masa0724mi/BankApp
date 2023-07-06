@@ -7,5 +7,4 @@ extension View {
         NavigationView { self }
     }
     
-    
 }
