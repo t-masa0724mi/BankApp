@@ -17,6 +17,10 @@
 		E2C7BF2E2A5555F00051C5CB /* AccountService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C7BF2D2A5555F00051C5CB /* AccountService.swift */; };
 		E2C7BF302A5665A10051C5CB /* AccountSummaryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C7BF2F2A5665A10051C5CB /* AccountSummaryScreen.swift */; };
 		E2C7BF322A5667470051C5CB /* AccountListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C7BF312A5667470051C5CB /* AccountListView.swift */; };
+		E2C7BF342A569AD10051C5CB /* CreateAccountRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C7BF332A569AD10051C5CB /* CreateAccountRequest.swift */; };
+		E2C7BF362A569BB10051C5CB /* CreateAccountResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C7BF352A569BB10051C5CB /* CreateAccountResponse.swift */; };
+		E2C7BF382A56A6720051C5CB /* AddAccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C7BF372A56A6720051C5CB /* AddAccountViewModel.swift */; };
+		E2C7BF3A2A56B8780051C5CB /* AddAccountScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C7BF392A56B8780051C5CB /* AddAccountScreen.swift */; };
 		E2E394FC2A554770006D5101 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2E394FB2A554770006D5101 /* Assets.xcassets */; };
 		E2E394FF2A554770006D5101 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2E394FE2A554770006D5101 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -32,6 +36,10 @@
 		E2C7BF2D2A5555F00051C5CB /* AccountService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountService.swift; sourceTree = "<group>"; };
 		E2C7BF2F2A5665A10051C5CB /* AccountSummaryScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryScreen.swift; sourceTree = "<group>"; };
 		E2C7BF312A5667470051C5CB /* AccountListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountListView.swift; sourceTree = "<group>"; };
+		E2C7BF332A569AD10051C5CB /* CreateAccountRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountRequest.swift; sourceTree = "<group>"; };
+		E2C7BF352A569BB10051C5CB /* CreateAccountResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountResponse.swift; sourceTree = "<group>"; };
+		E2C7BF372A56A6720051C5CB /* AddAccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAccountViewModel.swift; sourceTree = "<group>"; };
+		E2C7BF392A56B8780051C5CB /* AddAccountScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAccountScreen.swift; sourceTree = "<group>"; };
 		E2E394F42A55476C006D5101 /* BankApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2E394FB2A554770006D5101 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2E394FE2A554770006D5101 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -62,6 +70,8 @@
 			isa = PBXGroup;
 			children = (
 				E2C7BF292A5555450051C5CB /* Account.swift */,
+				E2C7BF332A569AD10051C5CB /* CreateAccountRequest.swift */,
+				E2C7BF352A569BB10051C5CB /* CreateAccountResponse.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -70,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				E2C7BF2F2A5665A10051C5CB /* AccountSummaryScreen.swift */,
+				E2C7BF392A56B8780051C5CB /* AddAccountScreen.swift */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -94,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				E2C7BF2B2A5555700051C5CB /* AccountSummaryViewModel.swift */,
+				E2C7BF372A56A6720051C5CB /* AddAccountViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -212,11 +224,15 @@
 				E2C7BF322A5667470051C5CB /* AccountListView.swift in Sources */,
 				E2C7BF182A5553BD0051C5CB /* AppDelegate.swift in Sources */,
 				E2C7BF262A5554F50051C5CB /* URL+Extensions.swift in Sources */,
+				E2C7BF382A56A6720051C5CB /* AddAccountViewModel.swift in Sources */,
 				E2C7BF282A5555130051C5CB /* Double+Extensions.swift in Sources */,
 				E2C7BF2E2A5555F00051C5CB /* AccountService.swift in Sources */,
 				E2C7BF2C2A5555700051C5CB /* AccountSummaryViewModel.swift in Sources */,
+				E2C7BF362A569BB10051C5CB /* CreateAccountResponse.swift in Sources */,
 				E2C7BF2A2A5555450051C5CB /* Account.swift in Sources */,
+				E2C7BF3A2A56B8780051C5CB /* AddAccountScreen.swift in Sources */,
 				E2C7BF242A5554D70051C5CB /* View+Extensions.swift in Sources */,
+				E2C7BF342A569AD10051C5CB /* CreateAccountRequest.swift in Sources */,
 				E2C7BF162A5553700051C5CB /* SceneDelegate.swift in Sources */,
 				E2C7BF302A5665A10051C5CB /* AccountSummaryScreen.swift in Sources */,
 			);
